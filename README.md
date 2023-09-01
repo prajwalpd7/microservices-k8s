@@ -33,10 +33,32 @@ To use the microservice, you can send HTTP requests to the service's endpoint. H
 
 This should return a JSON response with a greeting message.
 
-## Contributing
 
-If you'd like to contribute to this project, please fork the repository and create a new branch. Pull requests are welcome!
+## Project Roadmap
 
-## License
+### Phase 1: Environment Setup
+- Install Kubernetes and initialize a cluster using kubeadm.
+- Set up `kubectl` for cluster management.
 
-This project is licensed under the MIT License - see the [LICENSE.md]
+### Phase 2: Application Development
+- Develop a Flask application serving as the microservice.
+- Connect the application to MongoDB.
+
+### Phase 3: Dockerization
+- Create Dockerfiles for both Flask and MongoDB.
+- Build and test Docker images locally.
+
+### Phase 4: Kubernetes Deployment
+- Create YAML files for deployments and services.
+- Deploy the components to the Kubernetes cluster.
+
+### Phase 5: Scalability
+- Implement Horizontal Pod Autoscaling.
+
+### Phase 6: Monitoring and Logging
+- Set up Prometheus and Grafana for monitoring.
+- Use Fluentd and Elasticsearch for logging.
+
+### Phase 7: Troubleshooting
+- Implement best practices for troubleshooting common issues.
+
