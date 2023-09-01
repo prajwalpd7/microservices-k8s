@@ -2,12 +2,11 @@
 
 This is a microservice application built using Flask and deployed on Kubernetes. It is designed to demonstrate how to build and deploy microservices on a Kubernetes cluster.
 
-## Table of Contents
+![k8s micro](https://github.com/prajwalpd7/microservices-k8s/assets/71492927/5b4ff721-5d22-43e9-9230-2b18ad2d6204)
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
+- Deploy a scalable Flask application and MongoDB on a Kubernetes cluster.
+
 
 ## Installation
 
